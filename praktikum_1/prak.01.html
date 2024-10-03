@@ -1,45 +1,97 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="id">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>prak.01</title>
     <style>
-        body{
+        body, html{
             font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-            margin: 0;
-            padding: 0;
-            background-color: rgb(240, 73, 73);
+            height: 100%;
+            display: flex;
+            align-items: var(center);
+            justify-content: center;
+            background-color: rgb(255, 255, 255);
             }
+
+        .container {
+            text-align: center;
+            background-color: #ffffff;
+            padding: 150px;
+          
+            border-radius: 10px;
+            box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+        }
         .foto_profil {
             width: 150px;
             height: 150px;
             border-radius: 50%;
             border: 2px solid #fff;
-            position: absolute;
-            bottom: 700px;
-            left: 50%;
+            bottom: 500px;
+            left: 50;
+            object-fit: cover;
             transform: translateX(-50%); 
+            margin-left: -200px;
+            
+        }
+        h1 {
+            font-size: 30px;
+            font-weight: bold;
+            margin-bottom: 15px;
+            text-align: center;
+        }
+
+        p {
+            text-align: left;
+            margin-top: -150px;
+            margin-left: 200px;
+            font-size: 20px
+        }
+      
+        h2 {
+            font-size: 20px;
+            font-weight: bold;
+            margin-top: 50px;
+            margin-left: -50px;
+            text-align: left;
+        }
+        h3 {
+            text-align: left;
+            margin-left: -50px;
+        }
+        h4 {
+            margin-top: 10px;
+            margin-left: -50px;
+            text-align:left;
         }
     </style>
 </head>
-
 <body>
-   <p><h1>About me </h1> </p>
-    <br>
-    <p>f
-    <img src="foto_profil.jpg"  width="200 " title="foto aing bro" alt="foto" class="foto_profil"> 
-        <br> 
-    <strong>M Aldi Fathurroji (2300016134) E</strong> 
-        <br>    
-    banten 28 sep 2004 </p> 
-    <p></p>
-    <h2>hobi</h2> 
-    <br>
-<p>baca buku <br>
-main game </p>
-    <h4> <q>gak apa di manfaatin berarti hidup kita bermanfaat</q></h4>
-    <p>github : <a href="https://github.com/aldiFathurroji">dapat 1 juta</a>
+    <div class="container"> 
+        <h1>About Me</h1> 
+        <img src="foto_profil.png"  width="200 " title="foto saya" alt="foto" class="foto_profil"> 
+        <p>biodata  
+            <br>
+            Nama           : M Aldi Fathurroji <br>
+            NIM            : 2300016134 <br>
+            kelas praktikum: E <br>
+            kelas teory    : C <br>
+            asal           : pandeglang, banten
+             </p>
+        <h2>hobi
+         <li>main game</li>
+         <li>baca buku</li>
+         <li>menulis puisi</li>
+        </h2>
+        <h4>quote <br> 
+            <q>gak apa di manfaatin berarti hidup kita bermanfaat</q></h4> 
+        <h3>kontak <br>
+            github : <a href="https://github.com/aldiFathurroji">aldiFathurroji</a> <br>
+            whatsapp : 081218443652 <br>
+            instagram : <a href="https://www.instagram.com/a.aldi_fathurroji/">a.aldi_fathurroji</a>
+        </h3>
+     </div>
+    </style>
+</head>
 </body>
-
 </html>
