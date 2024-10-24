@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="gaya1.css">
+    <title>Document</title>
+</head>
+    <title>To-Do App</title>
+<body>
+
+    <div class="container">
+        <h2>My To-Do List</h2>
+        <input type="text" id="newTask" placeholder="Add a new task">
+        <button onclick="addTask()">Add</button>
+        <label for="background-color">Background Color:</label>
+<select id="background-color" onchange="changeBackgroundColor()">
+    <option value="#f4f4f4">Default</option>
+    <option value="#ffefd5">Peach</option>
+    <option value="#add8e6">Light Blue</option>
+    <option value="#90ee90">Light Green</option>
+    <option value="#f4f4f4">Default (Light Grey)</option>
+    <option value="#ffefd5">Peach</option>
+    <option value="#add8e6">Light Blue</option>
+    <option value="#90ee90">Light Green</option>
+    <option value="#ffb6c1">Light Pink</option>
+    <option value="#ffd700">Gold</option>
+    <option value="#d3d3d3">Light Grey</option>
+    <option value="#87ceeb">Sky Blue</option>
+    <option value="#ffa07a">Light Salmon</option>
+    <option value="#98fb98">Pale Green</option>
+    <option value="#f08080">Light Coral</option>
+</select>
+
+<br><br>
+
+<label for="font-size">Font Size:</label>
+<input type="range" id="font-size" min="12" max="24" value="16" oninput="changeFontSize(this.value)">
+<span id="font-size-display">16px</span>
+
+<br><br>
+
+<button onclick="toggleDarkMode()">Toggle Dark Mode</button>
+
+<br><br>
+
+<label for="font-style">Font Style:</label>
+<select id="font-style" onchange="changeFontStyle()">
+    <option value="Arial, sans-serif">Sans-serif</option>
+    <option value="Georgia, serif">Serif</option>
+</select>
+
+        <ul id="List">
+            
+        </ul>
+
+        <script src="prak3.js"></script>
+
+    </div>
+</body>
+</html>
