@@ -1,0 +1,80 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: #f4f4f4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+    padding: 20px;
+}
+
+.container {
+    background-color: white;
+    width: 350px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+    padding: 20px;
+    text-align: center;
+    line-height: 1.5;
+}
+
+.profile-pic {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    border: 3px solid #4A90E2;
+    object-fit: cover;
+    margin-bottom: 15px;
+}
+
+h2 {
+    color: #0047AB;
+    font-size: 22px;
+    margin-bottom: 10px;
+}
+
+.bio p {
+    color: #333;
+    margin-bottom: 10px;
+    line-height: 1.5;
+    text-align: left;
+}
+
+.social-media a {
+    display: inline-block;
+    margin: 0 10px;
+    text-decoration: none;
+    color: #0047AB;
+    font-size: 18px;
+    text-align: left;
+}
+
+.social-media span {
+    font-weight: bold;
+    margin-right: 5px;
+}
+
+.social-media a:hover {
+    text-decoration: underline;
+}
+
+.contact {
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    line-height: 30px;
+    text-align: left;
+}
+
+.project {
+    text-align: left;
+    margin-bottom: 10px;
+}
